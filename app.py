@@ -25,7 +25,7 @@ with st.sidebar:
 #continent = "Europe"
     continent = st.selectbox(label = 'Choose a contnent', options = continent_list)
 #metric = 'pop'
-    metric = = st.selectbox(label = 'Choose a metric', options = metric_list, format_func=format_metric)
+    metric = st.selectbox(label = 'Choose a metric', options = metric_list, format_func=format_metric)
 
 query=f"continent=='{continent}' & metric=='{metric}'"
 

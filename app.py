@@ -16,7 +16,7 @@ metric_list = list(df['metric'].unique())
 metric_labels={"gdpPercap": "GDP per Capita", "lifeExp": "Average Life Expectancy", "pop":"Population"}
 
 # helper function 
-def formate_metric(metric_raw):
+def format_metric(metric_raw):
     return metric_labels[metric_raw]
 
 ## select the contient and metric
